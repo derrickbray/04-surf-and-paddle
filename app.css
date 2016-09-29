@@ -20,8 +20,6 @@ ul {
 .container {
   margin: 0 auto;
   max-width: 65rem;
-  display: flex;
-  justify-content: center;
 }
 
 .hero {
@@ -55,8 +53,14 @@ ul {
   text-align: center;
 }
 
-.nav_title h1 {
-  background: white;
+.hero__text h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 0.1rem;
+}
+.hero__text p{
+  padding-top: 0.1rem;
+margin-top: 0.1rem;
 }
 
 .top-nav__logo {
@@ -72,4 +76,8 @@ ul {
 
 .top-nav__item {
   margin: 0 0.5rem;
+}
+
+.hero__text {
+  padding: 8rem 0;
 }
