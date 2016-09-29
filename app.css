@@ -1,54 +1,75 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   margin: 0;
   /*background: green;*/
   font-family: "Raleway", sans-serif;
 }
-*{
+
+* {
   box-sizing: border-box;
 }
-ul{
+
+ul {
   padding-left: 0;
   list-style: none;
 }
-.container{
+
+.container {
   margin: 0 auto;
   max-width: 65rem;
-
+  display: flex;
+  justify-content: center;
 }
-.hero{
-  background: #232323;
+
+.hero {
+  background: blue;
   padding: 1rem 2rem;
-
+  background: url('images/surf.jpeg') no-repeat center center fixed;
+  background-size: cover;
 }
-.top-nav{
+
+.top-nav {
   overflow: auto;
-  color: #e3e3e3;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .top-nav a {
   color: inherit;
   text-decoration: none;
 }
+
 .top-nav img {
   border-radius: 50%;
   height: 2em;
   vertical-align: middle;
 }
-.top-nav__logo{
 
+.nav_title {
+  display: block;
+  text-align: center;
+}
+
+.nav_title h1 {
+  background: white;
+}
+
+.top-nav__logo {
   margin: 0;
 }
-.top-nav__links{
-    display: flex;
-    margin: 0 -0.5rem;
+
+.top-nav__links {
+  display: flex;
+  margin: 0 -0.5rem;
   /*background: blue;
   color: transparent;*/
 }
-.top-nav__item{
+
+.top-nav__item {
   margin: 0 0.5rem;
 }
