@@ -82,3 +82,17 @@ ul {
 .hero__text {
   padding: 8rem 0;
 }
+.article{
+margin: auto;
+max-width: 65%;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+.left article{
+
+}
+.right article{
+
+}
