@@ -17,6 +17,10 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 65rem;
@@ -84,8 +88,7 @@ ul {
 }
 
 .article {
-  margin: auto;
-  max-width: 60%;
+  padding: 1rem;
 }
 
 .main {
@@ -185,37 +188,56 @@ ul {
   font-size: 0.5rem;
   color: grey;
 }
-.btn{
-color: white;
-font-size: 0.7rem;
-display: flex;
-justify-content: space-between;
-width: 20rem;
-}
-.grey-btn{
-background: grey;
-}
-.blue-btn{
-background: blue;
-}
-.bottom-third{
 
+.btn {
+  color: white;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
 }
-.foot{
 
+.grey-btn {
+  background: grey;
 }
-.pic-box{
 
+.blue-btn {
+  background: blue;
 }
-.pictures{
 
+.bottom-third {
+  padding: 1rem;
 }
-.footer{
 
+.foot {
+  /*display: flex;*/
+  /*justify-content: center;*/
 }
-.footer__copy{
 
+.foot h2 {
+  text-align: center;
+  color: blue;
+  margin: 0;
 }
-.footer-nav{
 
+.pic-box {
+  margin: 0 -1rem;
+  /*width: calc(100% / 4)*/
 }
+
+.pictures {
+  width: 100%;
+  display: flex;
+}
+
+.pictures img {
+  flex-grow: 1;
+}
+
+.footer {
+  padding: 1rem;
+}
+
+.footer__copy {}
+
+.footer-nav {}
