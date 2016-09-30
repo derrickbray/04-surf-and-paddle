@@ -213,13 +213,17 @@ img {
 }
 
 .blue-btn {
-  background: blue;
+  background: darkblue;
 }
 
 .bottom-third {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
+.bottom-third h2{
+  font-size: 3rem;
+  text-align: center;
 
+}
 .foot {
   /*display: flex;*/
   /*justify-content: center;*/
@@ -247,8 +251,24 @@ img {
 
 .footer {
   padding: 1rem;
+  background: darkblue;
 }
 
-.footer__copy {}
+.footer__copy {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
 
-.footer-nav {}
+.footer-nav a{
+  color: white;
+  padding: 0.6rem;
+  font-size: 0.6rem;
+}
+.footer-nav__link{
+  border-right: 0.1rem solid grey;
+
+}
+.footer__copy p{
+  font-size: 0.6rem;
+}
