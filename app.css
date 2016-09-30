@@ -95,6 +95,17 @@ max-width: 65%;
 /*width: 75%;*/
 padding-right : 1rem;
 }
+.headline{
+  font-size: 3rem;
+}
+.author{
+  font-size: 0.5rem;
+  margin-left:1rem;
+}
+.date{
+  font-size: 0.5rem;
+  margin-left: 1rem;
+}
 .author-info{
   display: flex;
   justify-content: flex-start;
