@@ -89,10 +89,22 @@ max-width: 65%;
 .main{
   display: flex;
   justify-content: center;
-}
-.left article{
 
 }
-.right article{
-
+.left-article{
+/*width: 75%;*/
+padding-right : 1rem;
+}
+.author-info{
+  display: flex;
+  justify-content: flex-start;
+}
+.author-info img {
+border-radius: 50%;
+width: 1.5rem;
+height: 1.5rem;
+}
+.right-article{
+max-width: 30%;
+padding-left: 1rem;
 }
