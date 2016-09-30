@@ -94,11 +94,14 @@ img {
 .main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .left-article {
-  /*width: 75%;*/
-  padding-right: 2rem;
+  width: calc(70% - 2rem);
+  margin: 1rem;
+  min-width: 20rem;
+  flex-grow: 1;
 }
 
 .headline {
@@ -136,9 +139,10 @@ img {
 }
 
 .right-article {
-  max-width: 30%;
-  padding-left: 2rem;
-  margin-top: 1rem;
+  width: calc(30% - 2rem);
+  flex-grow: 1;
+  margin: 1rem;
+  min-width: 8rem;
 }
 
 .author-info-right {
@@ -166,12 +170,18 @@ img {
 .ad {
   text-align: center;
   margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
 }
-
-.ad a {
+.adlink-parent{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.ad-link {
   font-size: 0.6rem;
   margin: 0 0 1rem 0;
-  float: right;
+
   color: grey;
 }
 
@@ -227,7 +237,7 @@ img {
 
 .pictures {
   width: 100%;
-  display: flex;
+display: flex;
 }
 
 .pictures img {
