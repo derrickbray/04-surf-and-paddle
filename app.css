@@ -185,3 +185,16 @@ ul {
   font-size: 0.5rem;
   color: grey;
 }
+.btn{
+color: white;
+font-size: 0.7rem;
+display: flex;
+justify-content: space-between;
+width: 20rem;
+}
+.grey-btn{
+background: grey;
+}
+.blue-btn{
+background: blue;
+}
