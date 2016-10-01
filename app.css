@@ -210,10 +210,12 @@ img {
 
 .grey-btn {
   background: grey;
+  color: white;
 }
 
 .blue-btn {
   background: darkblue;
+  color: white;
 }
 
 .bottom-third {
@@ -222,7 +224,7 @@ img {
 .bottom-third h2{
   font-size: 3rem;
   text-align: center;
-
+  border-top: 0.1rem solid grey;
 }
 .foot {
   /*display: flex;*/
@@ -248,7 +250,24 @@ img {
 .pictures img {
   flex-grow: 1;
 }
-
+.photo1{
+  position: relative;
+}
+.photo2{
+  position: relative;
+}
+.photo3{
+  position: relative;
+}
+.photo4{
+  position: relative;
+}
+.pictures h4 {
+  position: absolute;
+  bottom: 2%;
+  color: white;
+  font-size: 2rem;
+}
 .footer {
   padding: 1rem;
   background: darkblue;
