@@ -251,15 +251,19 @@ img {
 }
 .photo1{
   position: relative;
+  flex-grow: calc( 1 / 4);
 }
 .photo2{
   position: relative;
+  flex-grow: calc( 1 / 4);
 }
 .photo3{
   position: relative;
+  flex-grow: calc( 1 / 4);
 }
 .photo4{
   position: relative;
+  flex-grow: calc( 1 / 4);
 }
 .pictures h4 {
   position: absolute;
