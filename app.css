@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  /*background: green;*/
   font-family: "Raleway", sans-serif;
 }
 
@@ -23,7 +22,6 @@ img {
 }
 
 .hero {
-  background: blue;
   padding: 1rem 2rem;
   background: url('images/surf.jpeg') no-repeat center center fixed;
   background-size: cover;
@@ -71,8 +69,6 @@ img {
 .top-nav__links {
   display: flex;
   margin: 0 -0.5rem;
-  /*background: blue;
-  color: transparent;*/
 }
 
 .top-nav__item {
@@ -228,20 +224,8 @@ img {
   border-top: 0.1rem solid grey;
 }
 
-.foot {
-  /*display: flex;*/
-  /*justify-content: center;*/
-}
-
-.foot h2 {
-  text-align: center;
-  color: blue;
-  margin: 0;
-}
-
 .pic-box {
   margin: 0 -1rem;
-  /*width: calc(100% / 4)*/
 }
 
 .pictures {
@@ -258,28 +242,6 @@ img {
   position: relative;
   display: flex;
 }
-
-
-/*.photo1 {
-  position: relative;
-  flex-grow: calc( 1 / 4);
-}
-
-.photo2 {
-  position: relative;
-  flex-grow: calc( 1 / 4);
-}
-
-.photo3 {
-  position: relative;
-  flex-grow: calc( 1 / 4);
-}
-
-.photo4 {
-  position: relative;
-  flex-grow: calc( 1 / 4);
-}
-*/
 
 .pictures h4 {
   position: absolute;
@@ -299,9 +261,11 @@ img {
   justify-content: space-between;
   color: white;
 }
-.footer-nav{
+
+.footer-nav {
   padding-top: 0.5rem;
 }
+
 .footer-nav a {
   color: white;
   padding: 0.6rem;
@@ -315,7 +279,8 @@ img {
 .footer__copy p {
   font-size: 0.6rem;
 }
-.image__logo{
+
+.image__logo {
   height: 1.5rem;
   vertical-align: middle;
 }
