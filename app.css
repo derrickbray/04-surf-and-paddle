@@ -250,14 +250,16 @@ img {
   margin: 0 1rem;
 }
 
-.pictures img h4{
+.pictures img h4 {
   flex-grow: 1;
-
 }
-.photo__ind{
+
+.photo__ind {
   position: relative;
   display: flex;
 }
+
+
 /*.photo1 {
   position: relative;
   flex-grow: calc( 1 / 4);
@@ -278,6 +280,7 @@ img {
   flex-grow: calc( 1 / 4);
 }
 */
+
 .pictures h4 {
   position: absolute;
   bottom: 2%;
@@ -288,6 +291,7 @@ img {
 .footer {
   padding: 1rem;
   background: darkblue;
+  vertical-align: middle;
 }
 
 .footer__copy {
@@ -295,7 +299,9 @@ img {
   justify-content: space-between;
   color: white;
 }
-
+.footer-nav{
+  padding-top: 0.5rem;
+}
 .footer-nav a {
   color: white;
   padding: 0.6rem;
@@ -308,4 +314,8 @@ img {
 
 .footer__copy p {
   font-size: 0.6rem;
+}
+.image__logo{
+  height: 1.5rem;
+  vertical-align: middle;
 }
