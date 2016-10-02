@@ -206,23 +206,30 @@ img {
   display: flex;
   justify-content: space-between;
   width: 20rem;
-  display:
 }
 
 .grey-btn {
   background: grey;
   color: white;
+  padding: 0;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
 .blue-btn {
   background: darkblue;
   color: white;
+  padding: 0;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
 .btn i {
   background: darkgrey;
+  display: inline;
+  padding: 0.1rem;
 }
-
+.btn p {
+  display: inline;
+}
 .bottom-third {
   padding: 1rem 1rem 0 1rem;
 }
