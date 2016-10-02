@@ -129,7 +129,12 @@ img {
   font-size: 2rem;
   padding-left: 2rem;
 }
-
+.grey-link{
+  color: grey;
+}
+.blue-link {
+  color: blue;
+}
 .right-article {
   width: calc(30% - 2rem);
   flex-grow: 1;
@@ -201,6 +206,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 20rem;
+  display:
 }
 
 .grey-btn {
