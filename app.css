@@ -246,7 +246,7 @@ img {
 .bottom-third h2 {
   font-size: 3rem;
   text-align: center;
-  border-top: 0.1rem solid grey;
+  border-top: 0.1rem solid darkgrey;
 }
 
 .pic-box {
@@ -267,13 +267,13 @@ img {
   position: relative;
   display: flex;
   flex-grow: 1;
-  filter: opacity(0.75) grayscale(0.5);
-
+  filter: opacity(0.95) sepia(0.8);
 }
 
-.photo__ind:hover{
-filter: opacity(1) grayscale(0);
+.photo__ind:hover {
+  filter: opacity(1) sepia(0);
 }
+
 .pictures h4 {
   position: absolute;
   bottom: 2%;
