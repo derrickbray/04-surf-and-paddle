@@ -231,7 +231,7 @@ img {
 .pictures {
   width: 100%;
   display: flex;
-  margin: 0 1rem;
+  margin: 0;
 }
 
 .pictures img h4 {
@@ -241,6 +241,7 @@ img {
 .photo__ind {
   position: relative;
   display: flex;
+  flex-grow: 1;
 }
 
 .pictures h4 {
