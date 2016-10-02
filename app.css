@@ -267,8 +267,13 @@ img {
   position: relative;
   display: flex;
   flex-grow: 1;
+  filter: opacity(0.75) grayscale(0.5);
+
 }
 
+.photo__ind:hover{
+filter: opacity(1) grayscale(0);
+}
 .pictures h4 {
   position: absolute;
   bottom: 2%;
