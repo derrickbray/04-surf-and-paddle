@@ -157,8 +157,11 @@ img {
 .social {
   font-size: 0.6rem;
   color: grey;
-}
 
+}
+.social a {
+    text-decoration: none;
+}
 .ad {
   text-align: center;
   margin: 2rem 0 0 0;
@@ -271,10 +274,12 @@ img {
   color: white;
   padding: 0.6rem;
   font-size: 0.6rem;
+  text-decoration: none;
 }
 
 .footer-nav__link {
   border-right: 0.1rem solid grey;
+
 }
 
 .footer__copy p {
