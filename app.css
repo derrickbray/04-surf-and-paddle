@@ -129,12 +129,15 @@ img {
   font-size: 2rem;
   padding-left: 2rem;
 }
-.grey-link{
+
+.grey-link {
   color: grey;
 }
+
 .blue-link {
   color: blue;
 }
+
 .right-article {
   width: calc(30% - 2rem);
   flex-grow: 1;
@@ -162,11 +165,12 @@ img {
 .social {
   font-size: 0.6rem;
   color: grey;
+}
 
-}
 .social a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .ad {
   text-align: center;
   margin: 2rem 0 0 0;
@@ -223,13 +227,18 @@ img {
 }
 
 .btn i {
-  background: darkgrey;
+  background: black;
+  display: inline;
+  padding: 0.1rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+
+.btn p {
   display: inline;
   padding: 0.1rem;
 }
-.btn p {
-  display: inline;
-}
+
 .bottom-third {
   padding: 1rem 1rem 0 1rem;
 }
@@ -292,7 +301,6 @@ img {
 
 .footer-nav__link {
   border-right: 0.1rem solid grey;
-
 }
 
 .footer__copy p {
