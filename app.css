@@ -33,6 +33,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .top-nav a {
@@ -251,7 +252,6 @@ img {
 
 .pic-box {
   margin: 0 -1rem;
-
 }
 
 .pictures {
@@ -315,9 +315,11 @@ img {
 .footer-nav__link {
   border-right: 0.1rem solid grey;
 }
-.footer__copy{
+
+.footer__copy {
   flex-wrap: wrap;
 }
+
 .footer__copy p {
   font-size: 0.6rem;
   min-width: 15rem;
