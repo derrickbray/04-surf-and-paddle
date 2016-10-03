@@ -267,7 +267,11 @@ img {
   position: relative;
   display: flex;
   flex-grow: 1;
-  filter: opacity(0.95) sepia(0.8);
+  filter: opacity(0.95) sepia(0.8) hue-rotate(180deg);
+}
+
+.photo__ind img {
+  width: 100%;
 }
 
 .photo__ind:hover {
