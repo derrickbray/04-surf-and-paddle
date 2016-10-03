@@ -205,39 +205,35 @@ img {
   color: grey;
 }
 
+.button-row {
+  display: flex;
+}
+
 .btn {
+  margin-right: 0.5rem;
   color: white;
   font-size: 0.7rem;
+  border: 0;
   display: flex;
-  justify-content: space-between;
-  width: 20rem;
+  padding: 0;
 }
 
-.grey-btn {
+.btn--grey {
   background: grey;
-  color: white;
-  padding: 0;
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
-.blue-btn {
+.btn--blue {
   background: darkblue;
-  color: white;
-  padding: 0;
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
-.btn i {
+.btn-icon {
   background: black;
-  display: inline;
-  padding: 0.1rem;
-  float: left;
-  margin-right: 0.3rem;
+  padding: 0.2rem;
 }
 
-.btn p {
-  display: inline;
-  padding: 0.1rem;
+.btn__text {
+  margin: 0;
+  padding: 0.2rem;
 }
 
 .bottom-third {
