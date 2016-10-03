@@ -251,16 +251,18 @@ img {
 
 .pic-box {
   margin: 0 -1rem;
+
 }
 
 .pictures {
-  width: 100%;
+  /*width: 100%;*/
   display: flex;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .pictures img h4 {
-  flex-grow: 1;
+  /*flex-grow: 1;*/
 }
 
 .photo__ind {
@@ -272,6 +274,8 @@ img {
 
 .photo__ind img {
   width: 100%;
+  flex-grow: 1;
+  min-width: 10;
 }
 
 .photo__ind:hover {
@@ -311,9 +315,12 @@ img {
 .footer-nav__link {
   border-right: 0.1rem solid grey;
 }
-
+.footer__copy{
+  flex-wrap: wrap;
+}
 .footer__copy p {
   font-size: 0.6rem;
+  min-width: 15rem;
 }
 
 .image__logo {
