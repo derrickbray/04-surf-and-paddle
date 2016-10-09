@@ -25,6 +25,7 @@ img {
   padding: 1rem 2rem;
   background: url('images/surf.jpeg') no-repeat center center fixed;
   background-size: cover;
+
 }
 
 .top-nav {
@@ -237,13 +238,13 @@ img {
 }
 
 .bottom-third {
-  padding: 1rem 1rem 0 1rem;
+  /*padding: 1rem 1rem 0 1rem;*/
+  border-top: 0.1rem solid darkgrey;
 }
 
 .bottom-third h2 {
   font-size: 3rem;
   text-align: center;
-  border-top: 0.1rem solid darkgrey;
 }
 
 .pic-box {
@@ -269,7 +270,7 @@ img {
 }
 
 .photo__ind img {
-  max-width: 25rem;
+  width: 100%;
   flex-grow: 1;
   min-width: 10;
 }
