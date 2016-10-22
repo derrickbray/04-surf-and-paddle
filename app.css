@@ -238,7 +238,6 @@ img {
 }
 
 .bottom-third {
-  /*padding: 1rem 1rem 0 1rem;*/
   border-top: 0.1rem solid darkgrey;
 }
 
@@ -247,19 +246,11 @@ img {
   text-align: center;
 }
 
-.pic-box {
-  margin: 0 -1rem;
-}
-
 .pictures {
   /*width: 100%;*/
   display: flex;
   margin: 0;
   flex-wrap: wrap;
-}
-
-.pictures img h4 {
-  /*flex-grow: 1;*/
 }
 
 .photo__ind {
