@@ -1,6 +1,320 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
+.hero {
+  padding: 1rem 2rem;
+  background: url('images/surf.jpeg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.top-nav {
+  overflow: auto;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top-nav img {
+  border-radius: 50%;
+  height: 2em;
+  vertical-align: middle;
+}
+
+.nav_title {
+  display: block;
+  text-align: center;
+}
+
+.hero__text h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 0.1rem;
+}
+
+.hero__text p {
+  padding-top: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.top-nav__logo {
+  margin: 0;
+}
+
+.top-nav__links {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+
+.top-nav__item {
+  margin: 0 0.5rem;
+}
+
+.hero__text {
+  padding: 8rem 0;
+}
+
+.article {
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.left-article {
+  width: calc(70% - 2rem);
+  margin: 1rem;
+  min-width: 20rem;
+  flex-grow: 1;
+}
+
+.headline {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.author {
+  font-size: 0.5rem;
+  margin-left: 1rem;
+}
+
+.date {
+  font-size: 0.5rem;
+  margin-left: 1rem;
+}
+
+.author-info {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.5rem;
+}
+
+.author-info img {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.lower-heading {
+  border-left: 0.1rem solid grey;
+  color: blue;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.grey-link {
+  color: grey;
+}
+
+.blue-link {
+  color: blue;
+}
+
+.right-article {
+  width: calc(30% - 2rem);
+  flex-grow: 1;
+  margin: 1rem;
+  min-width: 8rem;
+}
+
+.author-info-right {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.author-info-right img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.author-right {
+  font-size: 0.9rem;
+  color: blue;
+  margin-bottom: 0;
+}
+
+.social {
+  font-size: 0.6rem;
+  color: grey;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.ad {
+  text-align: center;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.adlink-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ad-link {
+  font-size: 0.6rem;
+  margin: 0 0 1rem 0;
+  color: grey;
+}
+
+.right-article__bottom {
+  margin: 1rem 0 0 0;
+}
+
+.right-article__bottom h5 {
+  color: blue;
+  margin-bottom: 0;
+}
+
+.right-article__bottom p {
+  font-size: 0.5rem;
+  color: grey;
+}
+
+.button-row {
+  display: flex;
+}
+
+.btn {
+  margin-right: 0.5rem;
+  color: white;
+  font-size: 0.7rem;
+  border: 0;
+  display: flex;
+  padding: 0;
+}
+
+.btn--grey {
+  background: grey;
+}
+
+.btn--blue {
+  background: darkblue;
+}
+
+.btn-icon {
   background: black;
+  padding: 0.2rem;
+}
+
+.btn__text {
+  margin: 0;
+  padding: 0.2rem;
+}
+
+.bottom-third {
+  border-top: 0.1rem solid darkgrey;
+}
+
+.bottom-third h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.pictures {
+  /*width: 100%;*/
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.photo__ind {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  filter: opacity(0.95) sepia(0.8) hue-rotate(180deg);
+}
+
+.photo__ind img {
+  width: 100%;
+  flex-grow: 1;
+  min-width: 10;
+}
+
+.photo__ind:hover {
+  filter: opacity(1) sepia(0);
+}
+
+.pictures h4 {
+  position: absolute;
+  bottom: 2%;
+  color: white;
+  font-size: 2rem;
+}
+
+.footer {
+  padding: 1rem;
+  background: darkblue;
+  vertical-align: middle;
+}
+
+.footer__copy {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-nav {
+  padding-top: 0.5rem;
+}
+
+.footer-nav a {
+  color: white;
+  padding: 0.6rem;
+  font-size: 0.6rem;
+  text-decoration: none;
+}
+
+.footer-nav__link {
+  border-right: 0.1rem solid grey;
+}
+
+.footer__copy {
+  flex-wrap: wrap;
+}
+
+.footer__copy p {
+  font-size: 0.6rem;
+  min-width: 15rem;
+}
+
+.image__logo {
+  height: 1.5rem;
+  vertical-align: middle;
 }
